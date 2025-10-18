@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project 08-02: Bouncing Balls</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    #box {
+      position: relative;
+      margin: 30px auto;
+      width: 400px;
+      height: 300px;
+      border: 3px solid #333;
+      overflow: hidden;
+    }
+    .ball {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: crimson;
+    }
+  </style>
+  <script src="project08-02.js" defer></script>
+</head>
+<body>
+  <h1>Bouncing Ball Simulation</h1>
+  <div id="box"></div>
+  <button id="addBall">Add Ball</button>
+</body>
+</html>
